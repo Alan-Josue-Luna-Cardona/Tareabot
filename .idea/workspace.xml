@@ -4,15 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05035f24-c51b-433a-bad5-02466873639e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/carpetabot/tareabot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/Main.java" afterDir="false" />
+    <list default="true" id="05035f24-c51b-433a-bad5-02466873639e" name="Changes" comment="yes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/botConfig/BotConfiguracion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/botTelegram/Bot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/botTelegram/BotPreguntonDbDinamico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/botTelegram/BotRegistra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/botTelegram/TareaBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/botTelegram/botCuestionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/botTelegram/botPregunton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/dao/CuestionarioDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/dao/PreguntaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/dao/QuestDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/dao/RespuestaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/db/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/db/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/model/Cuestionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/model/Pregunta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/model/Quest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/model/Respuesta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/service/CuestionarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/service/PreguntaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/service/QuestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/service/RespuestaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/carpetabot/tareabot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umg/progra2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umg/progra2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +50,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Alan-Josue-Luna-Cardona&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Alan-Josue-Luna-Cardona/Tareabot.git&quot;,
+    &quot;accountId&quot;: &quot;1016b469-9098-4d18-a498-5931ddb71800&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -38,37 +71,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/OneDrive/Escritorio/botcito&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/HP/OneDrive/Escritorio/Programas actuales/Tareabot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Tareabot" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Tareabot" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,10 +104,42 @@
       <option name="presentableId" value="Default" />
       <updated>1723828773605</updated>
       <workItem from="1723828774765" duration="6721000" />
+      <workItem from="1723835880085" duration="362000" />
+      <workItem from="1723907504538" duration="6006000" />
+      <workItem from="1724512903147" duration="5165000" />
+      <workItem from="1724967897175" duration="594000" />
+      <workItem from="1725117578975" duration="1279000" />
+      <workItem from="1725118878726" duration="134000" />
+      <workItem from="1725715360343" duration="1976000" />
+      <workItem from="1725717360148" duration="1186000" />
     </task>
+    <task id="LOCAL-00001" summary="yes">
+      <option name="closed" value="true" />
+      <created>1723836091662</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723836091662</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="yes" />
+    <option name="LAST_COMMIT_MESSAGE" value="yes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/umg/progra2/dao/UserDao.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
